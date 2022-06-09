@@ -1,6 +1,7 @@
+import Footer from './components/Footer';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
-import { Projects, Skills } from './components/Section';
+import { ContactMe, Projects, Services, Skills } from './components/Section';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Main />
       <Skills />
       <Projects />
+      <Services />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }
