@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import SuccessModal from '../Modals/SuccessModal';
-import ErrorModal from '../Modals/ErrorModal';
+import {SuccessModal, ErrorModal} from '../Modals';
 
 export default () => {
     const form = useRef();
