@@ -1,6 +1,4 @@
-import Footer from './components/Footer';
-import Main from './components/Main';
-import Navbar from './components/Navbar';
+import {Navbar, Main, Footer} from './components/Layout';
 import { ContactMe, Projects, Services, Skills } from './components/Section';
 
 function App() {

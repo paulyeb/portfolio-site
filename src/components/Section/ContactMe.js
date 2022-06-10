@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import {SuccessModal, ErrorModal} from '../Modals';
+import {SuccessModal, ErrorModal} from '../Layout';
 
 export default () => {
     const form = useRef();
@@ -67,7 +67,7 @@ export default () => {
                     placeholder="Type your message here"
                 />
            </div>
-            <button type='submit' className="w-full border p-3 my-5 rounded-full hover:bg-gray-800 hover:text-gray-300 font-medium text-lg bg-gray-700 text-gray-100">Send</button>
+            <button type='submit' className="w-full border p-3 my-5 active:bg-gray-900 rounded-full hover:bg-gray-800 hover:text-gray-300 font-medium text-lg bg-gray-700 text-gray-100">Send</button>
         </form>
         {success ? <SuccessModal dismiss={() => setSuccess(false)} /> : errorState ? <ErrorModal dismiss={() => setError(false)} /> : null}
     </div>

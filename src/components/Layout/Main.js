@@ -3,10 +3,10 @@ import { faGithub, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/fre
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
-const Main = () => {
+export default () => {
     const [readMore, setReadMore] = useState(false);
     return (
-        <div className="flex lg:flex-row flex-col justify-between items-center container">
+        <div className="flex lg:flex-row flex-col justify-between items-center container" id="main">
             <div className="font-medium text-gray-700 lg:mr-60 w-full flex flex-col justify-center items-center">
                 <div>
                     <img src="/paul.jpg" alt="" className="rounded-full mb-3 object-cover h-40 w-40 lg:h-96 lg:w-96 shadow-xl lg:mt-0 mt-4" />
@@ -60,5 +60,3 @@ const Main = () => {
         </div>
     )
 }
-
-export default Main;
