@@ -15,7 +15,7 @@ export default () => {
             id: 2,
             title: "Music Player App",
             image: "/music-app.jpg",
-            description: 'This is app is a simple music application with a limited number of hard-coded songs with control buttons to switch between the available songs as well as pause and play music. The player also displays details of the current playing song. ie. name of artist, title of song and image of artist.',
+            description: 'This is app is a simple music application with a limited number of hard-coded songs with control buttons to switch between the available songs as well as pause, play and shuffle music. The player also displays details of the current playing song. ie. name of artist, title of song and image of artist.',
             skills: ' This system was built with Tailwindcss and React.js, making use of React Hooks and React Context API.',
             github: 'https://github.com/paulyeb/music-player-app',
             site: 'https://xmusic-app.herokuapp.com',
