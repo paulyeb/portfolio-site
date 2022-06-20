@@ -34,6 +34,7 @@ export default () => {
             theme: "Bootcamp Registration Interface"
         }
     ]
+    
     return (
         <div className="flex flex-col jsutify-center items-center h-full mt-10" id="projects">
             <p className="text-4xl mb-4">PROJECTS</p>
@@ -46,13 +47,13 @@ export default () => {
                             <p className="h-37 text-lg pl-2">
                                 {project.description} <span className="font-medium">{project.skills}</span>
                             </p>
-                            {project.live_demo && <button className="rounded-lg border px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
+                            {project.live_demo && <button className="rounded-lg border transition ease-in-out delay-150 hover:-translate-y-1 duration-300 px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
                                 <a href={project.live_demo} target="_blank" rel="noreferrer">Live Demo</a>
                             </button>}
-                            <button className="rounded-lg border px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
+                            <button className="rounded-lg border transition ease-in-out delay-150 hover:-translate-y-1 duration-300 px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
                                 <a href={project.github} target="_blank" rel="noreferrer">Github</a>
                             </button>
-                            {project.site && <button className="rounded-lg border px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
+                            {project.site && <button className="rounded-lg border transition ease-in-out delay-150 hover:-translate-y-1 duration-300 px-3 py-1 shadow-lg m-2 text-white bg-gray-800">
                                 <a href={project.site} target="_blank" rel="noreferrer">Site</a>
                             </button>}
                         </div>
